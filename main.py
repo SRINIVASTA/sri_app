@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.dirname(__file__)))
+
 import streamlit as st
 from agents.web_agent import run_web_search
 from agents.code_agent import run_code_execution
