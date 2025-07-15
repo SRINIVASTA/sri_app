@@ -2,3 +2,6 @@ streamlit
 duckduckgo-search
 textract
 playwright
+PyPDF2
+python-docx
+openpyxl
